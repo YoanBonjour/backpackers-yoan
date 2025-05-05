@@ -144,6 +144,10 @@ input[type="email"] {
   padding-right: 5vw;
 }
 
+input[type="email"]:hover {
+  background-color: #e2afaf;
+}
+
 input::placeholder {
   color: #a14343;
 }
@@ -164,6 +168,10 @@ button {
   padding-right: 3vw;
   margin-top: 60px;
   margin-bottom: 164px;
+}
+
+button:hover {
+  background-color: rgb(50, 56, 86);
 }
 
 #footer {
@@ -211,8 +219,8 @@ h4 {
   margin-bottom: 2vw;
 }
 
-#about p,
-#Legal p {
+#about a,
+#Legal a {
   color: #a14343;
   font-family: Arial;
   font-size: clamp(10px, 1.8vw, 20px);
