@@ -172,7 +172,7 @@ button {
   justify-content: space-between;
   gap: 50px;
   padding-right: 20vw;
-  min-height: 427px;
+  height: 30vw;
 }
 
 #B-img {
@@ -230,7 +230,7 @@ h4 {
 #copyright {
   color: #a14343;
   margin-top: 8vw;
-  font-size: 1vw;
+  font-size: 1.5vw;
 }
 
 #follow {
@@ -307,6 +307,7 @@ h4 {
   #footer {
     flex-direction: column;
     gap: 0;
+    height: 200vw;
   }
   #footer-logo {
     align-self: flex-start;
